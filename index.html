@@ -49,18 +49,24 @@
             <nav class="header__menu">
               <ul class="header__list">
                 <li class="header__item">
-                  <a href="#" class="header__link"> AUTO </a>
+                  <a href="#" class="header__link"> Главная </a>
                 </li>
                 <li class="header__item">
-                  <a href="#" class="header__link"> RACING </a>
+                  <a href="#advan" class="header__link">
+                    Оклейка автомобилей
+                  </a>
                 </li>
                 <li class="header__item">
-                  <a href="#" class="header__link"> STORE </a>
+                  <a href="#" class="header__link"> Детейлинг автомобилей </a>
                 </li>
                 <li class="header__item">
-                  <a href="#" class="header__link"> CORPORATE </a>
+                  <a href="#" class="header__link"> Галерея работ </a>
                 </li>
               </ul>
+
+              <button class="header__btn">
+                <img width="40" src="./img/menu-bar.png" alt="" />
+              </button>
             </nav>
           </header>
           <div class="hero__wrapper">
@@ -74,7 +80,7 @@
           </div>
         </section>
 
-        <section class="about">
+        <section id="service" class="about">
           <div class="container">
             <ul class="about__list">
               <li class="about__item">
@@ -100,7 +106,7 @@
           </div>
         </section>
 
-        <section class="slider">
+        <section id="slider" class="slider">
           <div class="container">
             <div id="carouselExampleCaptions" class="carousel slide">
               <div class="carousel-inner">
@@ -241,17 +247,13 @@
           </div>
         </section>
 
-        <section class="advan">
+        <section id="advan" class="advan">
           <div class="container advan__box">
             <div class="advan__slider">
               <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner advan__inner">
                   <div class="carousel-item active">
-                    <img
-                      src="./img/mers.png"
-                      class="d-block w-100"
-                      alt="..."
-                    />
+                    <img src="./img/mers.png" class="d-block w-100" alt="..." />
                     <p class="advan__slider-text">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Pellentesque auctor nibh feugiat est. Consectetur lectus.
@@ -347,10 +349,9 @@
                 </p>
               </li>
             </ul>
-    
           </div>
         </section>
-        <section class="service">
+        <section id="service" class="service">
           <div class="container">
             <h2 class="title">100% полироль axem</h2>
             <img src="./img/advan-devide.svg" alt="devide" />
@@ -358,7 +359,7 @@
               <button class="active__btn">Оклейка</button>
               <button>Детейлинг</button>
             </div>
-            <ul class="service__list">
+            <ul id="service" class="service__list">
               <li class="service__item">
                 <img src="./img/bmv.svg" alt="icon" />
                 <h3>Защитные пленки</h3>
@@ -398,96 +399,106 @@
             </ul>
           </div>
         </section>
-        
 
-
-
-        <section class="works">
+        <section id="works" class="works">
           <div class="container">
             <h2 class="title">Наши работы</h2>
-            <img class="works__devide" src="./img/advan-devide.svg" alt="devide">
+            <img
+              class="works__devide"
+              src="./img/advan-devide.svg"
+              alt="devide"
+            />
             <ul class="works__list">
               <li class="works__item">
-<img src="./img/works-1.png" alt="car">
-<img src="./img/works-2.svg" alt="car">
-<img src="./img/works-3.svg" alt="car">
-<img src="./img/works-4.png" alt="car">
-<img src="./img/works-5.png" alt="car">
-<img src="./img/works-6.png" alt="car">
+                <img src="./img/works-1.png" alt="car" />
+                <img src="./img/works-2.svg" alt="car" />
+                <img src="./img/works-3.svg" alt="car" />
+                <img src="./img/works-4.png" alt="car" />
+                <img src="./img/works-5.png" alt="car" />
+                <img src="./img/works-6.png" alt="car" />
               </li>
               <li class="works__item">
-<img src="./img/works-1.png" alt="car">
-<img src="./img/works-2.svg" alt="car">
-<img src="./img/works-3.svg" alt="car">
-<img src="./img/works-4.png" alt="car">
-<img src="./img/works-5.png" alt="car">
-<img src="./img/works-6.png" alt="car">
+                <img src="./img/works-1.png" alt="car" />
+                <img src="./img/works-2.svg" alt="car" />
+                <img src="./img/works-3.svg" alt="car" />
+                <img src="./img/works-4.png" alt="car" />
+                <img src="./img/works-5.png" alt="car" />
+                <img src="./img/works-6.png" alt="car" />
               </li>
               <li class="works__item">
-<img src="./img/works-1.png" alt="car">
-<img src="./img/works-2.svg" alt="car">
-<img src="./img/works-3.svg" alt="car">
-<img src="./img/works-4.png" alt="car">
-<img src="./img/works-5.png" alt="car">
-<img src="./img/works-6.png" alt="car">
+                <img src="./img/works-1.png" alt="car" />
+                <img src="./img/works-2.svg" alt="car" />
+                <img src="./img/works-3.svg" alt="car" />
+                <img src="./img/works-4.png" alt="car" />
+                <img src="./img/works-5.png" alt="car" />
+                <img src="./img/works-6.png" alt="car" />
               </li>
             </ul>
-            
-            
           </div>
         </section>
       </article>
     </main>
 
-
     <footer>
+      <div class="container">
+        <h2 class="title">ответим на любой вопрос</h2>
+        <img
+          class="wroks__devide footer_devide"
+          src="./img/advan-devide.svg"
+          alt="devide"
+        />
 
-        
-        <footer>
-          <div class="container">
-              <h2 class="title">ответим на любой вопрос</h2>
-              <img class="wroks__devide footer_devide"  src="./img/advan-devide.svg" alt="devide">
-  
-              <form   
-                  class="form"
-                  action="https://formspree.io/f/mkgnzeva"
-                  method="POST">
-                  <input class="form__input" type="text" placeholder="ИМЯ" name="ФИО" required>
-                  <input class="form__input" maxlength="12" type="number" placeholder="ТЕЛЕФОН" name="НОМЕР ТЕЛЕФОНА" required>
-                  <textarea class="form__question" name="Вопрос" placeholder="Вопрос по дизайну, тюнингу и др."></textarea>
-                  
-                  <button class="form__btn">отправить</button>
-              </form>
-          </div>
+        <form
+          class="form"
+          action="https://formspree.io/f/mkgnzeva"
+          method="POST"
+        >
+          <input
+            class="form__input"
+            type="text"
+            placeholder="ИМЯ"
+            name="ФИО"
+            required
+          />
+          <input
+            class="form__input"
+            maxlength="12"
+            type="number"
+            placeholder="ТЕЛЕФОН"
+            name="НОМЕР ТЕЛЕФОНА"
+            required
+          />
+          <textarea
+            class="form__question"
+            name="Вопрос"
+            placeholder="Вопрос по дизайну, тюнингу и др."
+          ></textarea>
 
-          <div class="footer-line"></div>
-          
-          <div class="footer-container"
-          >
-        </p>hhhhhhhhhhhhffffffffffffffttt<p>
-            <nav class="header__menu">
-              <ul class="header__list">
-                <li class="header__item">
-                  <a href="#" class="header__link"> Главная </a>
-                </li>
-                <li class="header__item">
-                  <a href="#" class="header__link"> 
-                    Оклейка автомобилей
-                    </a>
-                </li>
-                <li class="header__item">
-                  <a href="#" class="header__link"> Детейлинг автомобилей </a>
-                </li>
-                <li class="header__item">
-                  <a href="#" class="header__link"> Галерея работ </a>
-                </li>
+          <button class="form__btn">отправить</button>
+        </form>
+      </div>
 
-                
+      <div class="footer-line"></div>
 
-          </div>
-
-      </footer>
-
+      <div class="footer-container">
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#" class="header__link"> Главная </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link"> Оклейка автомобилей </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link"> Детейлинг автомобилей </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link"> Галерея работ </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
@@ -496,4 +507,3 @@
     ></script>
   </body>
 </html>
-
